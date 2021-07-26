@@ -20,7 +20,6 @@ class App extends React.Component {
         return(
             <div className="ui container">
                 <SearchBar onFormSubmission={this.onTermSubmit}/>
-                I have {this.state.videos.length} videos
                 <VideoList videos={this.state.videos}/>
             </div>
         )
